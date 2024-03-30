@@ -8,11 +8,9 @@ import base64
 """
 
 class YdmVerify(object):
-    _custom_url = "http://api.jfbym.com/api/YmServer/customApi"
-    _token = "xw5Kvy5b4L1QFRwXnZnFJswknuwTwZl-BjRq2d6UFIM"
-    _headers = {
-        'Content-Type': 'application/json'
-    }
+    _custom_url = 
+    _token = 
+    _headers = 
 
     def common_verify(self, image, verify_type="60000"):
         # 数英汉字类型
